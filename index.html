@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ramseyer Investor</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Georgia', serif;
+      background: #0a0a0a;
+      color: #f0e6d3;
+      min-height: 100vh;
+    }
+    header {
+      background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+      padding: 60px 40px;
+      text-align: center;
+      border-bottom: 2px solid #c9a84c;
+    }
+    header h1 {
+      font-size: 3rem;
+      color: #c9a84c;
+      letter-spacing: 4px;
+      text-transform: uppercase;
+    }
+    header p {
+      font-size: 1.1rem;
+      color: #a0b0c0;
+      margin-top: 12px;
+      letter-spacing: 2px;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      background: #111;
+      padding: 16px;
+      border-bottom: 1px solid #333;
+    }
+    nav a {
+      color: #c9a84c;
+      text-decoration: none;
+      font-size: 0.95rem;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+    }
+    nav a:hover { color: #fff; }
+    .hero {
+      max-width: 900px;
+      margin: 60px auto;
+      padding: 0 40px;
+      text-align: center;
+    }
+    .hero h2 {
+      font-size: 2rem;
+      color: #c9a84c;
+      margin-bottom: 20px;
+    }
+    .hero p {
+      font-size: 1.1rem;
+      line-height: 1.9;
+      color: #ccc;
+    }
+    .cards {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 30px;
+      max-width: 1000px;
+      margin: 50px auto;
+      padding: 0 40px;
+    }
+    .card {
+      background: #1a1a2e;
+      border: 1px solid #c9a84c33;
+      border-radius: 10px;
+      padding: 30px;
+      width: 260px;
+      text-align: center;
+    }
+    .card h3 { color: #c9a84c; margin-bottom: 12px; font-size: 1.2rem; }
+    .card p { color: #aaa; font-size: 0.95rem; line-height: 1.6; }
+    footer {
+      text-align: center;
+      padding: 30px;
+      color: #555;
+      font-size: 0.85rem;
+      border-top: 1px solid #222;
+      margin-top: 60px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Ramseyer Investor</h1>
+    <p>Capital &bull; Strategy &bull; Growth</p>
+  </header>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#focus">Focus Areas</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <section class="hero" id="about">
+    <h2>Investing with Purpose</h2>
+    <p>We identify high-conviction opportunities across infrastructure, private credit, and emerging markets. Our approach combines rigorous financial analysis with deep operational expertise to generate superior risk-adjusted returns.</p>
+  </section>
+  <section class="cards" id="focus">
+    <div class="card">
+      <h3>Infrastructure</h3>
+      <p>Long-duration assets with stable cash flows and inflation protection across roads, energy, and urban development.</p>
+    </div>
+    <div class="card">
+      <h3>Private Credit</h3>
+      <p>Structured lending solutions for mid-market businesses, offering attractive yields with downside protection.</p>
+    </div>
+    <div class="card">
+      <h3>Emerging Markets</h3>
+      <p>Growth-oriented investments in high-potential economies with strong demographic and development tailwinds.</p>
+    </div>
+  </section>
+  <footer id="contact">
+    <p>&copy; 2026 Ramseyer Investor. All rights reserved.</p>
+  </footer>
+</body>
+</html>
